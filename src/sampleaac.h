@@ -1,0 +1,10 @@
+#ifndef SAMPLEAAC_H
+#define SAMPLEAAC_H
+#include <Arduino.h>
+
+// Este es un array de ejemplo. Sustitúyelo por el de tu práctica.
+const unsigned char sampleaac[] PROGMEM = {
+  0xff, 0xf1, 0x50, 0x80, 0x13, 0x20, 0xad, 0x61, 0x11, 0x14, 0x4a, 0x40, 0x24, 0x01
+};
+
+#endif
